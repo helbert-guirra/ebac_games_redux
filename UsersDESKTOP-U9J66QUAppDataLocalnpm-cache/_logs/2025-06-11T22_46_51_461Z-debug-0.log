@@ -1,0 +1,79 @@
+0 verbose cli C:\Program Files\node.exe C:\Program Files\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.1
+3 silly config load:file:C:\Program Files\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Usuário\Documents\EBAC\python\Introdução ao Redux com React\redux-ebac\ebac_games_redux\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i react-redux @reduzjs/toolkit
+8 verbose argv "i" "--save" "react-redux" "@reduzjs/toolkit"
+9 verbose logfile logs-max:10 dir:C:\Users\Usuário\Documents\EBAC\python\Introdução ao Redux com React\redux-ebac\ebac_games_redux\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-06-11T22_46_51_461Z-
+10 verbose logfile C:\Users\Usuário\Documents\EBAC\python\Introdução ao Redux com React\redux-ebac\ebac_games_redux\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-06-11T22_46_51_461Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest react-redux@*
+15 silly packumentCache full:https://registry.npmjs.org/react-redux cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react-redux 875ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/react-redux set size:undefined disposed:false
+18 silly fetch manifest @types/react@^18.0.28
+19 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2freact 374ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+22 silly fetch manifest react@^18.2.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 691ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+26 silly fetch manifest redux@^5.0.0
+27 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/redux 152ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/redux set size:undefined disposed:false
+30 silly fetch manifest @reduzjs/toolkit@*
+31 silly packumentCache full:https://registry.npmjs.org/@reduzjs%2ftoolkit cache-miss
+32 http fetch GET 404 https://registry.npmjs.org/@reduzjs%2ftoolkit 770ms (cache skip)
+33 silly placeDep ROOT @reduzjs/toolkit@ OK for: loja@0.1.0 want: *
+34 silly placeDep ROOT react-redux@9.2.0 OK for: loja@0.1.0 want: *
+35 silly placeDep ROOT @types/react@18.3.23 REPLACE for: react-redux@9.2.0 want: ^18.2.25 || ^19
+36 silly fetch manifest @types/use-sync-external-store@^0.0.6
+37 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store cache-miss
+38 silly fetch manifest use-sync-external-store@^1.4.0
+39 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store 823ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store set size:undefined disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fuse-sync-external-store 1384ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store set size:undefined disposed:false
+44 silly fetch manifest react@^18.0 || ^19
+45 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+46 http cache https://registry.npmjs.org/react 48ms (cache hit)
+47 silly packumentCache full:https://registry.npmjs.org/react set size:5776015 disposed:false
+48 silly placeDep ROOT @types/use-sync-external-store@0.0.6 OK for: react-redux@9.2.0 want: ^0.0.6
+49 silly placeDep ROOT use-sync-external-store@1.5.0 OK for: react-redux@9.2.0 want: ^1.4.0
+50 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@reduzjs%2ftoolkit - Not found
+50 verbose stack     at C:\Program Files\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+50 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+50 verbose stack     at async RegistryFetcher.packument (C:\Program Files\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+50 verbose stack     at async RegistryFetcher.manifest (C:\Program Files\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+50 verbose stack     at async #fetchManifest (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1202:20)
+50 verbose stack     at async #nodeFromEdge (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1040:19)
+50 verbose stack     at async #buildDepStep (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:904:11)
+50 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+50 verbose stack     at async Promise.all (index 1)
+50 verbose stack     at async Arborist.reify (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+51 verbose statusCode 404
+52 verbose pkgid @reduzjs/toolkit@*
+53 error code E404
+54 error 404 Not Found - GET https://registry.npmjs.org/@reduzjs%2ftoolkit - Not found
+55 error 404
+56 error 404  '@reduzjs/toolkit@*' is not in this registry.
+57 error 404
+58 error 404 Note that you can also install from a
+59 error 404 tarball, folder, http url, or git url.
+60 silly unfinished npm timer reify 1749682012469
+61 silly unfinished npm timer reify:loadTrees 1749682012470
+62 verbose cwd C:\Users\Usuário\Documents\EBAC\python\Introdução ao Redux com React\redux-ebac\ebac_games_redux
+63 verbose os Windows_NT 10.0.19045
+64 verbose node v22.15.1
+65 verbose npm  v10.9.2
+66 verbose exit 1
+67 verbose code 1
+68 error A complete log of this run can be found in: C:\Users\Usuário\Documents\EBAC\python\Introdução ao Redux com React\redux-ebac\ebac_games_redux\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-06-11T22_46_51_461Z-debug-0.log
